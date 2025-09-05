@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portafolio de TU NOMBRE</title>
+  <meta name="description" content="Portafolio y proyectos de TU NOMBRE." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; line-height: 1.6}
+    header {padding: 64px 24px; text-align: center}
+    h1 {margin: 0 0 8px}
+    .tag {display:inline-block; border:1px solid #ddd; border-radius:999px; padding:4px 10px; font-size:12px; margin: 4px}
+    .grid {display:grid; gap:16px; padding:24px; grid-template-columns: repeat(auto-fit,minmax(240px,1fr))}
+    .card {border:1px solid #eee; border-radius:16px; padding:16px}
+    .card h3 {margin:0 0 8px}
+    footer {text-align:center; padding:24px; color:#666}
+    a {text-decoration:none}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hola, soy TU NOMBRE</h1>
+    <p>Desarrollo proyectos de <b>web</b>, <b>datos</b> e <b>IA</b>. Aquí verás trabajos, enlaces y contacto.</p>
+    <div>
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">GitHub Pages</span>
+    </div>
+  </header>
+
+  <section class="grid">
+    <article class="card">
+      <h3>Proyecto A</h3>
+      <p>Descripción breve del proyecto. Qué problema resuelve y qué tecnologías usaste.</p>
+      <p><a href="#" target="_blank">Demo</a> · <a href="#" target="_blank">Código</a></p>
+    </article>
+    <article class="card">
+      <h3>Proyecto B</h3>
+      <p>Descripción breve del proyecto. Resultados, métricas o aprendizajes clave.</p>
+      <p><a href="#" target="_blank">Demo</a> · <a href="#" target="_blank">Código</a></p>
+    </article>
+    <article class="card">
+      <h3>Contacto</h3>
+      <p>📧 tuemail@ejemplo.com</p>
+      <p>🐙 <a href="https://github.com/TUUSUARIO" target="_blank">GitHub</a> · 💼 <a href="https://linkedin.com/in/TUUSUARIO" target="_blank">LinkedIn</a></p>
+    </article>
+  </section>
+
+  <footer>© <span id="year"></span> TU NOMBRE</footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
